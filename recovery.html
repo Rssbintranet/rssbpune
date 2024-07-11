@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovery Department</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('recovery-background.jpg') no-repeat;
+            background-size: cover;
+            color: #fff; /* Set text color to white for the whole document */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #a825ff; /* Set h2 text color to a different color */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #000000; /* Set p text color to black */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recovery Department</h1>
+    </header>
+ 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="it.html">IT Dept</a>
+        <a href="audit.html">Audit Dept</a>
+        <div class="dropdown">
+            <a href="recovery.html">Recovery Dept</a>
+            <div class="dropdown-content">
+                <a href="debt-recovery.html">1</a>
+                <a href="asset-recovery.html">2</a>
+                <a href="fraud-recovery.html">3</a>
+            </div>
+        </div>
+        <a href="accounts.html">Accounts Dept</a>
+        <a href="investment.html">Investment Dept</a>
+        <a href="Hr.html">HR Dept</a>
+        <a href="admin.html">Admin Dept</a>
+        <a href="loan.html">Loan Dept</a>
+        <a href="account.html">Account Open Dept</a>
+    </nav>
+
+    <section>
+        <h2>About the Recovery Department</h2>
+        <p>The Recovery Department is responsible for the recovery of debts, assets, and fraud losses to ensure the bank's financial stability and compliance with legal regulations.</p>
+    </section>
+</body>
+</html>

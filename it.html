@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Department</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('it-background.jpg') no-repeat;
+            background-size: cover;
+            color: #000000;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #a825ff; /* Set h2 text color to a different color */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #000000;
+        }
+        
+        .image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IT Department</h1>
+    </header>
+ 
+    <nav>
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="it.html">IT Dept</a>
+            <div class="dropdown-content">
+                <a href="hardware.html">1</a>
+                <a href="software.html">2</a>
+                <a href="networks.html">3</a>
+            </div>
+        </div>
+        <a href="audit.html">Audit Dept</a>
+        <a href="recovery.html">Recovery Dept</a>
+        <a href="accounts.html">Accounts Dept</a>
+        <a href="investment.html">Investment Dept</a>
+        <a href="Hr.html">HR Dept</a>
+        <a href="admin.html">Admin Dept</a>
+        <a href="loan.html">Loan Dept</a>
+        <a href="account.html">Account Open Dept</a>
+    </nav>
+
+    <section>
+        <h2>About the IT Department</h2>
+        <img src="Adobe Scan 5 Jul 2024_page-0001.jpg" alt="Adobe Scan 5 Jul 2024_page-0001" class="image">
+        <p>The IT Department is responsible for managing and maintaining the Bank technology infrastructure, including hardware, software, and networks. Our team ensures that all IT systems are running smoothly and efficiently.</p>
+    </section>
+</body>
+</html>
